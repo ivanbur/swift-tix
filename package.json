@@ -1,0 +1,30 @@
+{
+  "name": "swift-tix",
+  "version": "0.0.1",
+  "description": "An app to notify you if The Eras Tour tickets go below a certain price.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bent": "~7.3.12",
+    "cheerio": "1.0.0-rc.12",
+    "cookie-parser": "~1.4.6",
+    "cors": "^2.8.5",
+    "express": "~4.18.1",
+    "forever": "^4.0.3",
+    "nodemailer": "6.9.3",
+    "request": "2.88.2",
+    "request-promise": "4.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanbur/swift-tix.git"
+  },
+  "author": "ivanbur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanbur/swift-tix/issues"
+  },
+  "homepage": "https://github.com/ivanbur/swift-tix#readme"
+}
